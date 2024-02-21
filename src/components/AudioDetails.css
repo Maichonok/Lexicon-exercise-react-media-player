@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 2rem 1.25rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  background-color: #1f2937;
+}
+.container {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.image {
+  border-radius: 0.5rem;
+  background-color: #f3f4f6;
+}
+
+.content {
+  display: grid;
+  margin-top: 0.75rem;
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  width: 66.666667%;
+}
+
+.title {
+  width: auto;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #e5e7eb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.author {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}

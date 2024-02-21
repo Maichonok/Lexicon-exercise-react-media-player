@@ -1,0 +1,85 @@
+.wrapper {
+  padding: 2.5rem 0 2.5rem 0;
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  background-color: #f9fafb;
+}
+
+.content {
+  display: flex;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-bottom: 2rem;
+  column-gap: 2.5rem;
+}
+
+.duration {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #4b5563;
+}
+
+.progress {
+  flex: 1 1 0%;
+}
+
+.input {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 1rem;
+  appearance: none;
+}
+
+.time {
+  display: flex;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #4b5563;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+}
+
+.loop-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #e5e7eb;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+.play-button {
+  padding: 1rem;
+  border-radius: 0.375rem;
+  border-width: 1px;
+}
+
+.play-button:hover {
+  background-color: #e5e7eb;
+}
+
+.volume-control {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  border-radius: 0.5rem;
+  height: 0.5rem;
+  width: 50%;
+}
